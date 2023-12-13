@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>TEST CAROUSEL</title>
+</head>
+
+<body>
+  <section class="tabs-projects">
+    <div class="project">
+      <button class="projectlinks" onmouseover="openproject(event, 'shark')">Projet 1</button>
+      <button class="projectlinks" onmouseover="openproject(event, 'moto')">Projet 2</button>
+      <button class="projectlinks" onmouseover="openproject(event, 'tigre')">Projet 3</button>
+    </div>
+
+    <div id="shark" class="projectcontent">
+      <h3>Projet 1</h3>
+      <img class="img-fluid" src="./assets/images/shark.jpeg" alt="requin">
+      <h5>Description</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veritatis debitis quos. Alias eos fugiat
+        recusandae voluptatibus, ipsum error totam quasi, reprehenderit molestias nostrum cupiditate ullam repudiandae?
+      </p>
+    </div>
+
+    <div id="moto" class="projectcontent">
+      <h3>Projet 2</h3>
+      <img class="img-fluid" src="./assets/images/moto.webp" alt="moto">
+      <h5>Description</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum itaque deleniti placeat odit eius
+        eum, consectetur dicta quas, ab deserunt voluptatem molestiae eaque adipisci, esse fugiat non illo quam!</p>
+    </div>
+
+    <div id="tigre" class="projectcontent">
+      <h3>Projet 3</h3>
+      <img class="img-fluid" src="./assets/images/tigre.jpeg" alt="tigre">
+      <h5>Description</h5>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vel explicabo vero, dignissimos, quis illo
+        modi,
+        placeat minus velit sit enim assumenda! Vitae reprehenderit quaerat id ullam itaque minus. Dolorum.</p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

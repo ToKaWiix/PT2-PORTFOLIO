@@ -1,0 +1,54 @@
+/* Style the tab */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-projects{
+  margin-top: 10px;
+}
+
+.project {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 215px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.project button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  font-size: large;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.project button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.project button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.projectcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+
+
