@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">ADM</li>
+                <input type="checkbox" id="nav-burger" />
+                <label for="nav-burger"><span class="fas fa-bars"></span></label>
+                <div class="menu-items">
+                    <ul class="nav_menu">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#goapropos">À propos</a></li>
+                        <li><a href="#goprojets">Projets</a></li>
+                        <li><a href="#gocontact">Contact</a></li>
+                    </ul>
+                </div>
+                <li class="log-ico">ADM</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="title">
+            <ul>
+                <li class="top">Anna DE MATOS</li>
+                <li>Développeur Web Web Mobile</li>
+                <button class="btn"><a href="./CV Anna.pdf" target="_blank"><i class="fa fa-download"></i>Télécharger
+                        le CV</a></button>
+                <p>Scroll Down</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </ul>
+        </div>
+    </section>
+
+    <section class="apropos">
+        <div id="goapropos">
+            <h2>À propos:</h2>
+            <div class="grid_container">
+                <img class="img" src="./assets/images/avatar.jpeg" alt="avatar">
+                <p class="txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam asperiores animi! Enim
+                    corporis est
+                    laborum error non, quasi provident libero molestias doloremque. Voluptate aspernatur vero assumenda
+                    a!
+                    Tempore, excepturi? <br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque magni
+                    saepe, dolores
+                    natus atque, eveniet sint dolorem perspiciatis quas, quibusdam voluptates quo perferendis aperiam?
+                    Animi
+                    asperiores aut amet sunt porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus
+                    ducimus ipsum iste repellendus modi. <br><br>Deserunt facere reprehenderit quaerat ea, iusto tempora
+                    ipsa
+                    praesentium impedit a perspiciatis esse eligendi soluta?Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tenetur rerum asperiores quisquam quod libero ducimus cum eos quia maxime non
+                    doloremque, laudantium dolorem aliquam obcaecati totam recusandae labore ipsam delectus.</p>
+            </div>
+            <div class="comp">
+                <div class="card w-75">
+                    <div class="card-body">
+                        <h2>Compétences</h2>
+                        <div>
+                            <p class="mb-0 mt-3">HTML 5</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;">90%</div>
+                            </div>
+                            <div>
+                                <p class="mb-0 mt-3">CSS 3</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;">80%</div>
+                                </div>
+                                <div>
+                                    <p class="mb-0 mt-3">SQL</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 60%;">60%</div>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 mt-3">PHP</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 40%;">40%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="logiciels">
+                <h2>Logiciels utilisés:</h2>
+                <ul>
+                    <li>VSCode</li>
+                    <li>MAMP</li>
+                    <li>Visual Paradigm</li>
+                    <li>JMerise</li>
+                </ul>
+
+            </div>
+
+
+    </section>
+
+
+    <section class="tabs-projects">
+        <div id="goprojets">
+            <h2>Projets:</h2>
+            <div class="project">
+                <button class="projectlinks" onmouseover="openproject(event, 'shark')">Projet 1</button>
+                <button class="projectlinks" onmouseover="openproject(event, 'moto')">Projet 2</button>
+                <button class="projectlinks" onmouseover="openproject(event, 'tigre')">Projet 3</button>
+            </div>
+
+            <div id="shark" class="projectcontent">
+                <h3>Projet 1</h3>
+                <img class="img-fluid" src="./assets/images/shark.jpeg" alt="requin">
+                <h5>Description</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veritatis debitis quos. Alias eos
+                    fugiat
+                    recusandae voluptatibus, ipsum error totam quasi, reprehenderit molestias nostrum cupiditate ullam
+                    repudiandae?
+                </p>
+            </div>
+
+            <div id="moto" class="projectcontent">
+                <h3>Projet 2</h3>
+                <img class="img-fluid" src="./assets/images/moto.webp" alt="moto">
+                <h5>Description</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum itaque deleniti placeat
+                    odit
+                    eius
+                    eum, consectetur dicta quas, ab deserunt voluptatem molestiae eaque adipisci, esse fugiat non illo
+                    quam!
+                </p>
+            </div>
+
+            <div id="tigre" class="projectcontent">
+                <h3>Projet 3</h3>
+                <img class="img-fluid" src="./assets/images/tigre.jpeg" alt="tigre">
+                <h5>Description</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum vel explicabo vero, dignissimos, quis
+                    illo
+                    modi,
+                    placeat minus velit sit enim assumenda! Vitae reprehenderit quaerat id ullam itaque minus. Dolorum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="gocontact">
+        <div class="container">
+            <h1>Formulaire de contact</h1>
+            <form>
+                <label for="fname">Nom & prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+                <div class="button">
+                    <button onclick="myFunction()">
+                        <p>Envoyer</p>
+                    </button>
+                </div>
+
+                <script>
+                    function myFunction() {
+                        alert("Message envoyé !");
+                    }
+                </script>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <div>
+            <ul>
+                <li class="text-black">&copy; 2023</li>
+                <li><a href="./mentions_légales.html">Mentions légales</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>
